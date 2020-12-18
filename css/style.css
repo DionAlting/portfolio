@@ -20,6 +20,10 @@
   --gray4: #454e56;
   --gray5: #2a2e35;
   --gray6: #12181b;
+
+  --bg: var(--gray0);
+  --bg-nav: var(--clr-dark);
+  --text: var(--gray6);
 }
 
 .dark {
@@ -27,11 +31,11 @@
   --bg-nav: var(--clr-dark);
   --text: var(--gray0);
 }
-.light {
+/* .light {
   --bg: var(--gray0);
   --bg-nav: var(--clr-dark);
   --text: var(--gray6);
-}
+} */
 
 @media (min-width: 600px) {
   :root {
