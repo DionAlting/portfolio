@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/DionAlting/portfolio">
-    <img src="./img/SlakLogo.png?raw=true" alt="Logo" width="230" height="180">
+    <img src="./img/Slaklogo.png?raw=true" alt="Logo" width="230" height="180">
   </a>
 
   <h3 align="center">Dion Alting</h3>
