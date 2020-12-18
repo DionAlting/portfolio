@@ -77,4 +77,3 @@ Project Link: [https://github.com/DionAlting/portfolio](https://github.com/DionA
 
 - [Font Awesome](https://fontawesome.com)
 - [Normalise.css](https://necolas.github.io/normalize.css/)
-- []()
