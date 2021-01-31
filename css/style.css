@@ -248,7 +248,13 @@ img.header__logo {
   margin: 0 0.5em;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
+  :root {
+    --fs-h1: 4.5;
+    --fs-h2: 1.75rem;
+    /* --fs-h3: 0.75rem; */
+    --fs-body: 1.125rem;
+  }
   .nav {
     position: fixed;
     bottom: 0;
@@ -301,6 +307,19 @@ img.header__logo {
     position: relative;
     z-index: 2;
   }
+
+  p {
+    font-size: 1rem;
+  }
+  .skill-list__item {
+    font-size: 2rem;
+  }
+  .footer__link {
+    font-size: 1rem;
+  }
+  .social-list__item {
+    padding-bottom: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -342,16 +361,5 @@ img.header__logo {
     grid-area: img;
     position: relative;
     z-index: 2;
-  }
-}
-@media (max-width: 600px) {
-  :root {
-    --fs-h1: 4.5;
-    --fs-h2: 1.75rem;
-    --fs-h3: 0.75rem;
-    --fs-body: 1.125rem;
-  }
-  p {
-    font-size: 1rem;
   }
 }
