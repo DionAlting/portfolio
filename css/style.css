@@ -201,6 +201,7 @@ img.header__logo {
 .skill-list {
   list-style: none;
   display: flex;
+  justify-content: center;
   margin: 1em 0;
   padding: 0;
 }
@@ -320,6 +321,12 @@ img.header__logo {
   .social-list__item {
     padding-bottom: 10px;
   }
+  .skill-list {
+    display: block;
+  }
+  .skill-list__item {
+    font-size: 1.5rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -352,7 +359,6 @@ img.header__logo {
     grid-column: 1 / -1;
     grid-row: 2;
     position: relative;
-    left: -1em;
     width: calc(100% + 2em);
     padding-left: 1em;
   }
