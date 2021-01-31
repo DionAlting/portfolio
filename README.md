@@ -42,7 +42,7 @@
 ## About The Project
 
 I made this portfolio website as part of the first homework assignment from Codaisseur.
-<br><br>_Add image here_
+<br><br>
 
 ### Built With
 
