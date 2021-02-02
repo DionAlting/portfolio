@@ -7,7 +7,6 @@ const body = document.body;
 const isDarkMode = localStorage.getItem("isDarkMode");
 
 if (isDarkMode) {
-  console.log(isDarkMode);
   body.classList.add("dark");
   profileImage.classList.add("about-me__img--dark");
   gigImage.classList.add("gig_img--dark");
